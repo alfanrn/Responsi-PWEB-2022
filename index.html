@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ALFAN-TUGAS AKHIR-A-2022</title>
+  <link rel="stylesheet" type="text/css" href="calcu.css"/>
+  <link rel="stylesheet" type="text/css" href="calendar.css"/>
+</head>
+<body >
+  <div align="center">
+    <br><br>
+<form method="post" action="simpan.php">
+		<p>NAMA : <input type="text" name="nama">
+	<input type="submit" value="simpan"><br><br><br>
+	</form></p>
+  </div>
+    <div>
+<div class="container display display-col item-center margin">
+    <div id="calculator">
+    <div class="baris">
+      <input class="out" type="text"/>
+    </div>
+    <div class="baris">
+      <button class="button">AC</button>
+      <button class="button clr-equation">%</button>
+      <button class="button clr-equation">/</button>
+      <button class="button clr-equation">*</button>
+      <button class="button clr-equation">+</button>
+      <button class="button clr-equation">-</button>
+      <button class="button clr-equation">=</button>  
+    </div>
+    <div class="baris">
+      <button class="button clr-number">1</button>
+      <button class="button clr-number">2</button>
+      <button class="button clr-number">3</button>
+      <button class="button clr-number">4</button>
+      <button class="button clr-number">5</button>
+      <button class="button clr-number">6</button>
+      <button class="button clr-number">7</button>
+    </div>
+    <div class="baris">
+      <button class="button clr-number">8</button>
+      <button class="button clr-number">9</button>  
+      <button class="button clr-number">.</button>
+      <button class="button button0 clr-number expand">0</button>
+    </div>
+  </div>
+   <div class="calendar">
+      Tanggal Hari Ini
+    <p id="bulan"></p>
+    <p id="hari"></p>
+    <p id="tanggal"></p>
+    <p id="tahun"></p>
+</div>
+  <script src="java.js"></script>
+</div>
+</div>
+</body>
+
+</html>

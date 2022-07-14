@@ -1,0 +1,35 @@
+.calendar{
+	width: 200px;
+	margin-top: 30px;
+	background: #313131;
+	text-align: center;
+	border-radius: 10px;
+	color: white;
+	font-size: 15px;
+	float: right;
+}
+.calendar #bulan{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #f69906;
+	color: white; 
+	font-size: 30px;
+}
+.calendar #hari{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: white;
+}
+.calendar #tanggal{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 50px;
+	color: white; 
+}
+.calendar #tahun{
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: white; 
+}

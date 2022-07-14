@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url("back.jpg");
+}
+p{
+  color: black;
+}
+#calculator{
+  background: black;
+  border-radius: 16px;
+}
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 3px 0;
+  border: 2px solid black;
+  border-radius: 48%;
+  cursor: pointer;
+  background: #9f9f9f ;
+  color: black;
+  font-size: 20px;
+}
+.button0{
+  border-radius: 40px;
+  font-size: 20px;
+}
+.expand{
+  width: 280px;
+}
+.baris{
+  margin: 8px 5px 8px 8px;
+}
+.baris input{
+  width: 460px;
+  font-size: 20px;
+  margin: 3px;
+  padding: 10px;
+  border-radius: 16px;
+  text-align: right;
+}
+.clr-number{
+  background:#313131;
+  color:#FAF9F6;
+}
+.clr-equation{
+  background:#f69906;
+  color:#FAF9F6;
+}
+.margin{
+  margin: auto;
+}
+.display{
+  display:flex;
+} 
+.display-col{
+  flex-direction: column;
+}
+.item-center{
+  align-items: center;
+}
